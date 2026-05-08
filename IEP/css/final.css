@@ -1,0 +1,116 @@
+:root {
+    --box-shadow: 0px 5px 75px #ffffffc2, 0px 105px 63px rgba(0, 0, 0, 0.05),
+        0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1),
+        0px 0px 0px rgba(0, 0, 0, 0.1);
+    --black-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width:0px) {
+    .btn-container {
+        box-shadow: var(--black-shadow);
+        overflow: hidden;
+    }
+}
+
+@media (min-width:768px) {
+    .donut-icon-container {
+        box-shadow: var(--black-shadow);
+    }
+
+    .btn-container {
+        box-shadow: none;
+        overflow: visible;
+    }
+}
+
+.donut-icon-container {
+    width: 100%;
+}
+
+
+circle.back-donut,
+text {
+    pointer-events: none;
+}
+
+/* definir los fondos degradados de cada circle */
+
+/* tik tok gradient */
+.tiktok-icon:hover circle.back-donut {
+    stroke: url(#tiktok-gradient);
+}
+
+/* Facebook gradient */
+.facebook-icon:hover circle.back-donut {
+    stroke: url(#facebook-gradient);
+}
+
+/* instagram gradient */
+.instagram-icon:hover circle.back-donut {
+    stroke: url(#instagram-gradient);
+}
+
+/* linkedin gradient */
+.linkedin-icon:hover circle.back-donut {
+    stroke: url(#linkedin-gradient);
+}
+
+svg.donut-icon:hover g.icon-container {
+    display: block;
+    animation-duration: 500ms;
+}
+
+.donut-icon {
+    cursor: pointer;
+}
+
+.icon-container {
+    transition: all 400ms ease;
+}
+
+.donut-icon-container svg.donut-icon {
+    transition: transform 500ms ease;
+}
+
+.donut-icon-container svg.donut-icon:hover {
+    transform: scale(1.05);
+}
+
+.hidden {
+    transition: all 400ms ease;
+    opacity: 0;
+}
+
+@media (min-width:0px) {
+    .main {
+        width: 100%;
+    }
+
+    .donut-icon {
+        width: 90px;
+    }
+
+    .donut-icon-container {
+        border-radius: 0rem;
+    }
+}
+
+@media (min-width:768px) {
+    .main {
+        width: 75%;
+    }
+
+    .donut-icon {
+        width: 115px;
+    }
+
+    .donut-icon-container {
+        border-radius: 1rem;
+    }
+}
+
+@media (min-width:992px) {
+    .main {
+        width: 65%;
+    }
+}

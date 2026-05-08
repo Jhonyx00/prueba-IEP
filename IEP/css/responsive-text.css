@@ -1,0 +1,94 @@
+@media (min-width: 0px) {
+    .question {
+        font-size: 0.8em;
+    }
+
+    .question-title {
+        font-size: 0.8em;
+    }
+
+    .option-text {
+        font-size: 0.8em;
+    }
+
+    .error-message {
+        font-size: 0.8em;
+    }
+
+    .title {
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+
+    .footer-text {
+        font-size: 0.85em;
+    }
+
+    .accept-btn {
+        font-size: 0.85rem;
+    }
+
+    /* register */
+    .form-label {
+        font-size: 0.85rem;
+    }
+
+    .form-control {
+        font-size: 0.85rem;
+    }
+
+    .form-select {
+        font-size: 0.85rem;
+    }
+}
+
+@media (min-width:576px) {
+    .title {
+        font-size: 1.2rem;
+        letter-spacing: 4px;
+    }
+}
+
+@media (min-width: 768px) {
+    .question {
+        font-size: 1em;
+    }
+
+    .option-text {
+        font-size: 1em;
+    }
+
+    .error-message {
+        font-size: 1em;
+    }
+
+    .question-title {
+        font-size: 1em;
+    }
+
+    .title {
+        font-size: 1.6rem;
+        letter-spacing: 7px;
+    }
+
+    .footer-text {
+        font-size: 1rem;
+    }
+
+    .accept-btn {
+        font-size: 1rem;
+    }
+
+    /* register */
+    .form-label {
+        font-size: 1rem;
+    }
+
+    .form-control {
+        font-size: 1rem;
+    }
+
+    .form-select {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,37 @@
+.question-block {
+    background-color: #f2f2f2;
+    padding: 0;
+}
+
+.option-container {
+    border: 2px solid #e9ecef;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background-color: white;
+}
+
+.option-container.selected {
+    background-color: #49DBC9;
+    border-color: #49DBC9;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 12px rgba(73, 219, 201, 0.3);
+}
+
+.option-container:hover {
+    border-color: #49DBC9;
+    box-shadow: 0px 4px 12px rgba(45, 212, 191, 0.2);
+}
+
+.option-text {
+    pointer-events: none;
+}
+
+.option-container.selected:hover {
+    border-color: #49DBC9;
+    background-color: #49DBC9;
+}
+
+.option-container.selected .option-text {
+    color: white;
+}

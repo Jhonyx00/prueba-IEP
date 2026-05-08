@@ -1,0 +1,38 @@
+.logo {
+    width: 30%;
+    min-width: 8em;
+    max-width: 15em;
+}
+
+body {
+    max-width: 80rem;
+    margin: auto;
+}
+
+.text-gray {
+    color: #8B8E98;
+    font-weight: 600;
+}
+
+.title {
+    font-size: 1.25rem;
+}
+
+.main-container {
+    max-width: 100rem;
+    box-shadow: 0px 5px 75px #ffffffc2,
+        0px 105px 63px rgba(0, 0, 0, 0.05),
+        0px 47px 47px rgba(0, 0, 0, 0.09),
+        0px 12px 26px rgba(0, 0, 0, 0.1),
+        0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.footer-text a {
+    color: inherit;
+}
+
+.accept-btn {
+    border: none;
+    box-shadow: 0px 9px 15px #00b9b970;
+    background: linear-gradient(to right, #2dd4bf, #0d9488);
+}

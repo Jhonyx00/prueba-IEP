@@ -1,0 +1,27 @@
+    @media (min-width:0px) {
+        .candidate-form input {
+            font-size: 0.85rem;
+        }
+
+        .candidate-form select {
+            font-size: 0.85rem;
+        }
+
+        .form-label {
+            font-size: 0.85rem;
+        }
+    }
+
+    @media (min-width:768px) {
+        .candidate-form input {
+            font-size: 1rem;
+        }
+
+        .candidate-form select {
+            font-size: 1rem;
+        }
+
+        .form-label {
+            font-size: 1rem;
+        }
+    }
